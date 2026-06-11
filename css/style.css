@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+	font-family:"Archangelsk";
+	src: url('Archangelsk.eot');
+	src: local('Archangelsk'),
+		url('Archangelsk.eot?#iefix') format('embedded-opentype'),
+		url('Archangelsk.woff') format('woff'),
+		url('Archangelsk.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family:"Archangelsk", sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.g-container
+{
+    max-width: 1304px;
+    margin: 0 auto;
+    padding: 0px 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.g-button
+{
+    width: 244px;
+    height: 60px;
+    background: #000;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: #f8f200;
+    text-wrap: nowrap;
+    /* margin: 0 auto; */
+    border: none;
+}
