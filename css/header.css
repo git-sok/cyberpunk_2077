@@ -10,6 +10,7 @@
     background-position: center;
     position: relative;
     margin-bottom: 50px;
+    background-position: center bottom;
 }
 
 .header__top
@@ -138,6 +139,7 @@
     }
     .g-container{padding: 0px 36px;}
     .header{padding-bottom: 0px;}
+    .header-bottom-title-desctop{text-align: left;}
     
 }
 

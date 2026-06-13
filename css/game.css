@@ -1,0 +1,231 @@
+
+
+
+.game
+{
+    background-image: url(/imgs/3-blok-fon.png);
+    background-repeat: no-repeat;
+    height: 1071px;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    object-position: center;
+    background-position: center top;
+    /* margin-top: 70px; */
+    padding-top: 125px;
+    /* max-width: 1304px;
+    margin: 0 auto; */
+}
+
+.game__logo-title-text
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+
+.game__text-description
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #fff;
+    margin-bottom: 70px;
+    max-width: 460px;
+}
+
+.personal
+{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 70px;
+    margin-top: 14px;
+}
+
+.game__feedback
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+}
+
+.game__imgs
+{
+    display: none;
+}
+
+.game__img-mobile img
+{
+    max-height: 130px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.game__img-mobile
+{
+    /* margin-top: 125px; */
+    position: relative;
+    margin-bottom: 25px;
+    max-height: 130px;
+
+}
+
+.game__img-mobile-absol
+{
+    position: absolute;
+    max-width: 62px;
+    max-height: 62px;
+    left: 10px;
+    top: -60px;
+}
+
+.feedback-imgs
+{
+    margin-top: 70px;
+}
+
+ .game__text
+ {
+    margin-bottom: 70px;
+ }
+
+
+.g-container-game
+{
+    max-width: 1304px;
+    margin: 0 auto;
+    padding: 0px 12px;
+    height: 100%;
+}
+
+.game__feedback-name, .game__feedback-mail, input
+{
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 20px 0px;
+    
+}
+
+.game__feedback-name input
+{
+    height: 69px;
+}
+
+.game__feedback-get-photo-div
+{
+    max-width: 460px;
+    height: 120px;
+    border: 1px dashed #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.game__feedback-get-photo
+{
+    width: 100%;
+    border-bottom: none;
+}
+
+.game__feedback-get-photo-div a
+{
+    color: #fff;
+    cursor: pointer;
+}
+
+.game__logo-title-img
+{
+    display: none;
+}
+
+.game__imgs-desk
+{
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .game__img-mobile{display: none;}
+    .game__imgs
+    {
+        display: block;
+    }
+    .g-container-game{padding: 0px 36px;}
+    .g-container-game
+    {
+        display: flex;
+        width: 100%;
+        gap: 32px;
+        justify-content: space-between;
+    }
+    .game__imgs
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        /* width: 296px;
+        height: 351px; */
+        height: 100%;
+    }
+    .game__logo-title-img{display: block;}
+    .game__text-description{font-size: 18px;}
+    .game__logo-title-text{font-size: 62px;}
+    .game{height: 1093px;}
+    .game__logo-title-text{width: 460px;}
+}
+
+
+
+@media screen and (min-width: 1920px){
+    .header-bottom{grid-template-columns: 1fr 1fr;}
+    .game__imgs{display: none;}
+    .game__imgs-desk
+    {
+        width: 296px;
+        height: 351px;
+        display: flex;
+    }
+    .feedback-imgs-desctop
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .game__feedback-get-photo-div
+    {
+        width: 460px;
+    }
+    .game__text-description{max-width: 952px;}
+    .game__logo-title-text{width: 600px;}
+    .game__logo-title
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 25px;
+    }
+    .game__logo-title-text{margin-bottom: 0px;}
+    .g-container-game{padding: 0px;}
+}

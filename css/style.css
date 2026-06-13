@@ -56,4 +56,17 @@
     text-wrap: nowrap;
     /* margin: 0 auto; */
     border: none;
+    cursor: pointer;
+}
+
+.g-button--yellow
+{
+    padding: 15px 50px;
+    width: 192px;
+    height: 59px;
+    background: #f8f200;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
 }
