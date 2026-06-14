@@ -1,0 +1,153 @@
+
+
+.buy__img
+{
+    width: 100%;
+    height: 198px;
+    object-fit: cover;
+}
+
+.buy
+{
+    background-color: black;
+}
+
+.buy__box-right-komplekt-one, .buy__box-right-komplekt-two, .buy__box-right-komplekt-tree
+{
+    display: flex;
+    gap: 13px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.buy__box-right-komplekt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-bottom: 25px;
+}
+
+.buy__box-right-title
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.buy__box-right-komplekt, .buy__box-right-platform
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #52bedc;
+}
+
+.buy__box-right-platform
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.buy__box-right-platform-img-top, .buy__box-right-platform-img-botton
+{
+    display: flex;
+    gap: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////  TABLET  ////////////////////////////////// */
+
+
+
+@media screen and (min-width: 1024px){
+    .buy
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* gap: 32px; */
+    }
+    .buy__img
+    {
+        height: 100%;
+    }
+    .buy__box-right-title
+    {
+        font-size: 62px;
+        margin-top: 70px;
+        max-width: 624px;
+    }
+    .buy__box-right-platform
+    {
+        margin-top: 75px;
+    }
+    .buy__box-right-komplekt-one, .buy__box-right-komplekt-two, .buy__box-right-komplekt-tree
+    {
+        font-size: 18px;
+    }
+    .buy__box-right-komplekt, .buy__box-right-platform
+    {
+        font-size: 24px;
+    }
+    .buy__box-right-platform-img-top, .buy__box-right-platform-img-botton
+    {
+        gap: 82px;
+    }
+    .buy__box-right-platform
+    {
+        margin-bottom: 70px;
+    }
+    .buy__box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .g-container-2fr
+    {
+        margin: 0;
+    }
+
+
+
+}
+
+
+
+
+
+/* ///////////////////  DESKTOP ////////////////////////////////// */
+
+
+@media screen and (min-width: 1920px){
+    .buy
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+    .g-container-2fr
+    {
+        padding: 0;
+    }
+
+
+}
