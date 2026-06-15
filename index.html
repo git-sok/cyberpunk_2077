@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/hp.css">
     <link rel="stylesheet" href="css/buy.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pop-up.css">
 </head>
 <body>
     <header class="header">
@@ -84,10 +85,10 @@
                 <div class="feedback-imgs-desctop">
                     <div class="feedback-imgs">
                         <div class="game__feedback">
-                            <input class="game__feedback-name" type="text" placeholder="Как тебя зовут?">
-                            <input class="game__feedback-mail" type="email" placeholder="Твой е-mail">
+                            <input class="game__feedback-name" id="name" type="text" placeholder="Как тебя зовут?">
+                            <input class="game__feedback-mail" id="mail" type="email" placeholder="Твой е-mail">
                             <div class="game__feedback-get-photo-div"><a href="#">Прикрепить скриншот</a></div>
-                            <button class="g-button g-button--yellow">Отправить</button>
+                            <button class="g-button g-button--yellow"  id="open" onclick="searchName ()">Отправить</button>
                             <lable class="personal">
                                 <input type="checkbox">  Согласен на обработку персональных данных
                             </lable>
@@ -193,5 +194,14 @@
         <p>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
     </div>
     </footer>
+    <div class="pop__up" id="pop__up">
+        <div class="pop__up-container">
+            <div class="pop__up-box">
+                <p id="input-name"></p>
+                <p id="input-mail"></p>
+                <div class="pop__up_close" id="close">&#10006</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

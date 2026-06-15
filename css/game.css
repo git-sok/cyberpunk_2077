@@ -116,6 +116,10 @@
     padding: 20px 0px;
     
 }
+.game__feedback-name, .game__feedback-mail, input:focus
+{
+    outline: none;
+}
 
 .game__feedback-name input
 {
