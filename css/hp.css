@@ -2,7 +2,7 @@
 
 .hp
 {
-    background-image: url(/imgs/fon_yellow-vob.png);
+    background-image: url('../imgs/fon_yellow-vob.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -81,7 +81,7 @@
     }
     .hp
     {
-        background-image: url(/imgs/fon_yellow.png);
+        background-image: url('../imgs/fon_yellow.png');
         height: 796px;
     }
     .hp__box-top-left-imgs

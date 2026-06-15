@@ -2,7 +2,7 @@
 
 .header
 {
-    background-image: url(/imgs/header-deckt.jpg);
+    background-image: url('../imgs/header-deckt.jpg');
     height: 763px;
     width: 100%;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 
 .header-bottom-text-mobile
 {
-    background-image: url(/imgs/Group\ 108.png);
+    background-image: url('../imgs/Group\ 108.png');
     min-width: 320px;
     height: 207px;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 
 .header-bottom-right
 {
-    background-image: url(/imgs/yelow-header.png);
+    background-image: url('../imgs/yelow-header.png');
     padding: 0px 70px;
     width: 100%;
     max-width: 624px;

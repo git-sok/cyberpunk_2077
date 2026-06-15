@@ -3,7 +3,7 @@
 
 .game
 {
-    background-image: url(/imgs/3-blok-fon.png);
+    background-image: url('../imgs/3-blok-fon.png');
     background-repeat: no-repeat;
     height: 1071px;
     width: 100%;
