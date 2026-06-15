@@ -1,0 +1,93 @@
+
+
+.footer__top-left-top
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__top-left-top img
+{
+    max-width: 200px;
+}
+
+.footer__top-right-bottom
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer__bottom
+{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__bottom p
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ///////////////////  TABLET  ////////////////////////////////// */
+
+
+
+@media screen and (min-width: 1024px){
+    .footer-box
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .footer__top-left-top
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .footer__top-right-bottom
+    {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+}
+
+
+
+
+
+/* ///////////////////  DESKTOP ////////////////////////////////// */
+
+
+@media screen and (min-width: 1920px){
+    
+
+
+}
