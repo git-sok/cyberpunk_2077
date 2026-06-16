@@ -64,7 +64,7 @@
     margin-top: 25px;
 }
 
-.hp__box-botton-right-tree{margin-bottom: 40px;}
+.hp__box-botton-right-tree{margin-bottom: 10px;}
 
 
 /* ///////////////////////////////////////////////////////// */
@@ -120,7 +120,7 @@
     .twoo{max-width: 90px;}
     .tree{max-width: 320px;}
     .hp__box-botton-right-one, .hp__box-botton-right-two, .hp__box-botton-right-tree{margin-top: 20px;}
-
+    .hp__box-botton-right-tree{margin-bottom: 25px;}
 }
 
 
@@ -157,7 +157,7 @@
         align-items: flex-start;
     }
     .hp__box-top-left-monitor{margin-top: 70px;}
-
+    .hp__box-botton-right-tree{margin-bottom: 45px;}
 
 
 
